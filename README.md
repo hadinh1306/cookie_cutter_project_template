@@ -31,14 +31,23 @@ bash cookie_cutter_template.sh
 While running the script, you will be prompted with some questions.
 
 1. What is the path of your directory?
+
 Set path to your project repository created in the beginning.
 
+Path is set like when you use `cd` command in `terminal`. If you don't know what `cd` does, [read more](http://www.rapidtables.com/code/linux/cd.htm). Follow the way they set path, but don't include command `cd` in your answer.
+
 2. What do you want to name your project?
+
 Type in a descriptive name for your project.
 
+Ex: predict_sales_2018, ab_test_new_menu
+
 3. What license you want to use?
+
 I pre-set options for: MIT License, Apache License 2.0 and No License.
 You can [read more](https://choosealicense.com/) on which license you want to choose.
+
+If you choose a different license than the 2 I pre-set, you can choose `3` - No License when prompted with this question. Then paste the license you desire to `LICENSE.md`.
 
 ### Output:
 If the script is run successfully, you can expect to see a project organized like this:
