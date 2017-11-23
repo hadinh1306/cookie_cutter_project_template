@@ -60,7 +60,8 @@ If the script is run successfully, you can expect to see a project organized lik
 | -- data  
 |    -- raw_data
 |    -- cleaned_data
-|    -- data_for_analysis  
+|    -- data_for_analysis
+| -- src  
 | -- analysis
 | -- results
 | -- graphs
