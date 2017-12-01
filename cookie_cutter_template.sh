@@ -13,11 +13,9 @@ cd $project
 touch README.md
 touch LICENSE.md
 touch CITATION.md
-mkdir data src analysis results graphs reports other 
+mkdir data src results graphs reports other
 cd data
 mkdir raw_data cleaned_data data_for_analysis
-cd graphs
-mkdir observatory_analysis_graph report_graph
 
 if [ "$license" = "1" ]; then
   echo 'MIT License
