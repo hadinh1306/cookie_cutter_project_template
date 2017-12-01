@@ -54,19 +54,15 @@ If the script is run successfully, you can expect to see a project organized lik
 
 ```
 | project_name
-| -- README.md
-| -- LICENSE.md
-| -- CITATION.md
 | -- data  
 |    -- raw_data
 |    -- cleaned_data
 |    -- data_for_analysis
-| -- src  
-| -- analysis
-| -- results
 | -- graphs
-|    -- observatory_analysis_graph
-|    -- report_graph
-| -- reports
 | -- other
+| -- reports
+| -- src
+| -- README.md
+| -- LICENSE.md
+| -- CITATION.md
 ```
